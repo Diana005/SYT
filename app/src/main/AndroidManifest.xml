@@ -14,49 +14,65 @@
         android:theme="@style/Theme.SYT"
         tools:targetApi="31" >
         <activity
-            android:screenOrientation="portrait"
-            android:name=".Menue2"
-            android:exported="false" />
-        <activity
-            android:screenOrientation="portrait"
             android:name=".Menue1"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
-            android:screenOrientation="portrait"
-            android:name=".Fifth.Exam"
-            android:exported="false" />
+            android:name=".First.UnderstandtheDifferenceBetweenUrgentandImportant"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
-            android:screenOrientation="portrait"
+            android:name=".First.Exam"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Menue2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fifth.Exam5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".Fifth.ConcentrationandFocus"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:screenOrientation="portrait"
             android:name=".Fourth.GoalSetting"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:screenOrientation="portrait"
             android:name=".Third.SticktoSchedule"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:screenOrientation="portrait"
-            android:name=".Fourth.Exam"
-            android:exported="false" />
+            android:name=".Third.Exam3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:screenOrientation="portrait"
+            android:name=".Fourth.Exam4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".Second.DoDifficultWorkWhen"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:screenOrientation="portrait"
+            android:name=".Second.Exam2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".Menue0"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:screenOrientation="portrait"
             android:name=".Introduction"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:screenOrientation="portrait"
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

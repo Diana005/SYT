@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Introduction"
-    android:background="#C2C3CA">
+    android:background="#EDEDF1">
 
     <TextView
         android:id="@+id/textintro"

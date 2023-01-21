@@ -1,14 +1,16 @@
-package com.example.syt.Second;
+package com.example.syt.Fifth;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
+
 import com.example.syt.R;
 
-public class Exam extends AppCompatActivity {
+public class Exam5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exam2);
+        setContentView(R.layout.activity_exam4);
     }
 }

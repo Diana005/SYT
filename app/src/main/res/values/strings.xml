@@ -5,4 +5,15 @@
     <string name="buti">Continue</string>
     <string name="c">Courses</string>
     <string name="r">Recourses</string>
+    <string name="c1">Understand the Difference Between Urgent and Important</string>
+    <string name="c2">Do Difficult Work When You Know You’re Most Productive</string>
+    <string name="c3">Stick to a Schedule and Don’t Miss Deadlines</string>
+    <string name="goal_setting">Goal Setting</string>
+    <string name="c5">Concentration and Focus</string>
+    <string name="c10">Understand the Difference Between Urgent and Important</string>
+    <string name="c101">Urgent things require your immediate attention. But just because something is urgent, doesn’t mean it’s important. Doing things that seem urgent but are actually of little significance costs us all a lot of time. You should always focus on what’s important: starting with urgent issues, and following with less urgent ones. For things that are urgent, but not important: try and delegate if there’s someone who can do them for you. If not, come back to them later (if necessary at all). Things that are neither urgent nor important? Ignore them. Or save them for last if they’re your guilty pleasures like playing video games. Use a priority matrix like this one, to keep tasks organized:</string>
+    <string name="c102">Here are some practical examples to help you see the difference: Urgent and Important Tasks:Do This Now- Tax deadline. Sudden work crisis. Phone call from a strategic client. Not Urgent but Important Tasks: -Do This Later Exercising Long-term planning Learning new skills Urgent but Not Important Tasks:Delegate This- Phone call from a telemarketer. Most emails. Requests for favors from coworkers. Not Urgent and Not Important Tasks:- Delete This Browsing social media. Playing video games. Binge-watching TV series you’ve already seen 8 times.</string>
+    <string name="return0">Return</string>
+    <string name="exam">Exam</string>
+
 </resources>

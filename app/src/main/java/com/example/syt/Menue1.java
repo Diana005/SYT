@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.Button;
 
 import com.example.syt.Fifth.ConcentrationandFocus;
 import com.example.syt.First.UnderstandtheDifferenceBetweenUrgentandImportant;
@@ -14,22 +14,21 @@ import com.example.syt.Second.DoDifficultWorkWhen;
 import com.example.syt.Third.SticktoSchedule;
 
 public class Menue1 extends AppCompatActivity {
-     ImageView firstmenue;
-    ImageView secondmenue;
-    ImageView thirdmenue;
-    ImageView fourthmenue;
-    ImageView fifthmenue;
-
+    private Button button4;
+    private Button button5;
+    private Button button6;
+    private Button button7;
+    private Button button8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu1);
-        firstmenue=findViewById(R.id.firstmenue);
-        secondmenue=findViewById(R.id.secondmenue);
-        thirdmenue=findViewById(R.id.thirdmenue);
-        fourthmenue=findViewById(R.id.fourthmenue);
-        fifthmenue=findViewById(R.id.fifthmenue);
-        firstmenue.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_menue1);
+        button4=findViewById(R.id.button4);
+        button5=findViewById(R.id.button5);
+        button6=findViewById(R.id.button6);
+        button7=findViewById(R.id.button7);
+        button8=findViewById(R.id.button8);
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent p = new Intent(Menue1.this, UnderstandtheDifferenceBetweenUrgentandImportant.class);
@@ -38,14 +37,14 @@ public class Menue1 extends AppCompatActivity {
 
             }
         });
-        secondmenue.setOnClickListener(new View.OnClickListener() {
+        button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent p = new Intent(Menue1.this, DoDifficultWorkWhen.class);
                 startActivity(p);
             }
         });
-        thirdmenue.setOnClickListener(new View.OnClickListener() {
+        button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent p = new Intent(Menue1.this, SticktoSchedule.class);
@@ -54,14 +53,14 @@ public class Menue1 extends AppCompatActivity {
 
             }
         });
-        fourthmenue.setOnClickListener(new View.OnClickListener() {
+        button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent p = new Intent(Menue1.this, GoalSetting.class);
                 startActivity(p);
             }
         });
-        fifthmenue.setOnClickListener(new View.OnClickListener() {
+        button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent p = new Intent(Menue1.this, ConcentrationandFocus.class);
