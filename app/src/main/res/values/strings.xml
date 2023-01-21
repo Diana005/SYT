@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">SYT</string>
+    <string name="app_name">Save your time</string>
+    <string name="s">Start</string>
+    <string name="i">Introduction</string>
+    <string name="buti">Continue</string>
+    <string name="c">Courses</string>
+    <string name="r">Recourses</string>
 </resources>
