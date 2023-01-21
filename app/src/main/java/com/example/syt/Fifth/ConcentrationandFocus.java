@@ -2,17 +2,43 @@ package com.example.syt.Fifth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 
+import com.example.syt.Menue1;
 import com.example.syt.R;
+import com.example.syt.Second.DoDifficultWorkWhen;
+import com.example.syt.Second.Exam2;
 
 public class ConcentrationandFocus extends AppCompatActivity {
-
+    private Button buttonc5;
+    private Button button2c5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_concentrationand_focus);
+        buttonc5 = findViewById(R.id.buttonc5);
+        button2c5= findViewById(R.id.button2c5);
+        buttonc5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent p = new Intent(ConcentrationandFocus.this, Menue1.class);
+                startActivity(p);
+            }
+        });
+        button2c5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent p = new Intent(ConcentrationandFocus.this, Exam5.class);
+                startActivity(p);
+
+
+            }
+        });
 
     }
 }

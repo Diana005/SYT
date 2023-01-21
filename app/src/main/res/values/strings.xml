@@ -21,5 +21,7 @@
     <string name="c302">Keith Wilcox, a researcher out of Columbia University, analyzed half a million tasks entered into a popular to-do list app to check the users’ behavior. He found that when they changed the deadline for a task, it took them an average of 16 more days to complete the task than when they kept the original deadline. Missing deadlines is not a once in a while occurrence either—users changed deadlines on 51% of tasks. Creating a schedule for your whole week, in turn, helps you save time you’d spend deciding what task to do next. It’s best to use a to-do list to schedule out everything we’re going to do each week (and day) into our calendar and then just let the calendar direct us. A calendar itself can be your most important productivity tool. You can use it to measure the value of your work time so that you can make the most of your working hours.</string>
     <string name="c401">Goal Setting</string>
     <string name="c402">The most successful time managers have clear targets to aim for. They develop SMART Goals, allowing them to allocate their time effectively. Treasure Mapping is a powerful way to see your goals clearly – so that you\'re motivated to give them the time they need. Personal Mission Statements are also helpful for being organized and staying committed to your plans.</string>
+    <string name="c501">Concentration and Focus</string>
+    <string name="c502">It\'s no good just making the time to pursue your priorities. You have to use that time well, too. You have to be focused.</string>
 
 </resources>
