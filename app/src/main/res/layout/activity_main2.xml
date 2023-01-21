@@ -6,15 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Introduction"
     android:background="#C2C3CA">
-<TextView
-    android:id="@+id/textintro"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Do you ever feel like there's not enough time in the day?We all get the same 24 hours – so why do some people seem to achieve more with their time than others? The answer: good time management. Time management is the process of organizing and planning how to divide your time between different activities. Get it right, and you'll end up working smarter, not harder, to get more done in less time – even when time is tight and pressures are high. The highest achievers manage their time exceptionally well. And by using Mind Tools' time-management resources, you too can make the most of your time – starting right now!"
-    android:textColor="@color/black"
-    android:layout_marginTop="30dp"
-    android:layout_marginLeft="10dp"
-    android:textSize="23dp"/>
+
+    <TextView
+        android:id="@+id/textintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Do you ever feel like there's not enough time in the day?We all get the same 24 hours – so why do some people seem to achieve more with their time than others? The answer: good time management. Time management is the process of organizing and planning how to divide your time between different activities. Get it right, and you'll end up working smarter, not harder, to get more done in less time – even when time is tight and pressures are high. The highest achievers manage their time exceptionally well. And by using Mind Tools' time-management resources, you too can make the most of your time – starting right now!"
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
     <Button
         android:id="@+id/buttonintro"
         android:layout_below="@id/textintro"
@@ -30,12 +32,11 @@
 
     <ImageView
         android:id="@+id/p"
-        android:layout_width="171dp"
-        android:layout_height="182dp"
+        android:layout_width="137dp"
+        android:layout_height="154dp"
         android:layout_below="@+id/textintro"
-        android:layout_marginTop="11dp"
-        android:background="@drawable/smth"
         android:layout_marginLeft="20dp"
-        />
+        android:layout_marginTop="15dp"
+        android:background="@drawable/smth" />
 
 </RelativeLayout>

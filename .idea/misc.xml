@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/font/fonts.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_exam.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_exam4.xml" value="0.1408514492753623" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_fourth.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_manue0.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_menu1.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_menue2.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_stickto_schedule.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/activity_understandthe_difference_between_urgentand_important.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SYT/app/src/main/res/layout/idk_view.xml" value="0.21467391304347827" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -23,11 +23,11 @@
 
     <ImageView
         android:id="@+id/thirdmenue"
-        android:layout_width="170dp"
-        android:layout_height="230dp"
+        android:layout_width="106dp"
+        android:layout_height="180dp"
         android:layout_below="@id/secondmenue"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="-503dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="-429dp"
         android:background="@drawable/thirdmenue" />
 
     <ImageView
