@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import android.widget.Button;
 
-import com.example.syt.Menue1;
+import com.example.syt.Courses;
 import com.example.syt.R;
 
 
@@ -21,7 +21,7 @@ public class UnderstandtheDifferenceBetweenUrgentandImportant extends AppCompatA
         button=findViewById(R.id.button);
         button2=findViewById(R.id.button2);
         button.setOnClickListener(v -> {
-            Intent p = new Intent(UnderstandtheDifferenceBetweenUrgentandImportant.this, Menue1.class);
+            Intent p = new Intent(UnderstandtheDifferenceBetweenUrgentandImportant.this, Courses.class);
             startActivity(p);
 
 

@@ -17,7 +17,7 @@ public class Introduction extends AppCompatActivity {
         buttonintro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Introduction.this, Menue0.class);
+                Intent p = new Intent(Introduction.this, Start.class);
                 startActivity(p);
             }
         });

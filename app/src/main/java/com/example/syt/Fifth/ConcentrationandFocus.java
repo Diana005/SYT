@@ -5,14 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 
-import com.example.syt.Menue1;
+import com.example.syt.Courses;
 import com.example.syt.R;
-import com.example.syt.Second.DoDifficultWorkWhen;
-import com.example.syt.Second.Exam2;
 
 public class ConcentrationandFocus extends AppCompatActivity {
     private Button buttonc5;
@@ -26,7 +22,7 @@ public class ConcentrationandFocus extends AppCompatActivity {
         buttonc5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(ConcentrationandFocus.this, Menue1.class);
+                Intent p = new Intent(ConcentrationandFocus.this, Courses.class);
                 startActivity(p);
             }
         });

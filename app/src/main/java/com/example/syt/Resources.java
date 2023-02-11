@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Menue2 extends AppCompatActivity {
+public class Resources extends AppCompatActivity {
 ImageView book1,book2,book3,book4,book5,book6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

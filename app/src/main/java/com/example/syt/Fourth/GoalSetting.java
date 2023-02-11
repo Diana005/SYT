@@ -7,10 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.syt.Menue1;
+import com.example.syt.Courses;
 import com.example.syt.R;
-import com.example.syt.Second.DoDifficultWorkWhen;
-import com.example.syt.Second.Exam2;
 
 public class GoalSetting extends AppCompatActivity {
     private Button buttonc4;
@@ -24,7 +22,7 @@ public class GoalSetting extends AppCompatActivity {
         buttonc4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(GoalSetting.this, Menue1.class);
+                Intent p = new Intent(GoalSetting.this, Courses.class);
                 startActivity(p);
             }
         });

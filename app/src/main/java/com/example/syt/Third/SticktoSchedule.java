@@ -6,10 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.syt.Menue1;
+import com.example.syt.Courses;
 import com.example.syt.R;
-import com.example.syt.Second.DoDifficultWorkWhen;
-import com.example.syt.Second.Exam2;
 
 public class SticktoSchedule extends Activity {
     private Button buttonc3;
@@ -23,7 +21,7 @@ public class SticktoSchedule extends Activity {
         buttonc3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(SticktoSchedule.this, Menue1.class);
+                Intent p = new Intent(SticktoSchedule.this, Courses.class);
                 startActivity(p);
             }
         });

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Main extends AppCompatActivity {
     private Button start;
     private Button introduction;
 
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
       introduction.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View v) {
-              Intent p = new Intent(MainActivity.this, Introduction.class);
+              Intent p = new Intent(Main.this, Introduction.class);
               startActivity(p);
 
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
       start.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View v) {
-              Intent p = new Intent(MainActivity.this, Menue0.class);
+              Intent p = new Intent(Main.this, Start.class);
               startActivity(p);
           }
       });

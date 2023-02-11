@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Menue0 extends AppCompatActivity {
+public class Start extends AppCompatActivity {
     private Button s;
     private Button i;
     @Override
@@ -19,7 +19,7 @@ public class Menue0 extends AppCompatActivity {
         i.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Menue0.this, Menue2.class);
+                Intent p = new Intent(Start.this, Resources.class);
                 startActivity(p);
 
 
@@ -28,7 +28,7 @@ public class Menue0 extends AppCompatActivity {
         s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Menue0.this, Menue1.class);
+                Intent p = new Intent(Start.this, Courses.class);
                 startActivity(p);
             }
         });

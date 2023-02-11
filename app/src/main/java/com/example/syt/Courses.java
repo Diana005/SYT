@@ -13,7 +13,7 @@ import com.example.syt.Fourth.GoalSetting;
 import com.example.syt.Second.DoDifficultWorkWhen;
 import com.example.syt.Third.SticktoSchedule;
 
-public class Menue1 extends AppCompatActivity {
+public class Courses extends AppCompatActivity {
     private Button button4;
     private Button button5;
     private Button button6;
@@ -31,7 +31,7 @@ public class Menue1 extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Menue1.this, UnderstandtheDifferenceBetweenUrgentandImportant.class);
+                Intent p = new Intent(Courses.this, UnderstandtheDifferenceBetweenUrgentandImportant.class);
                 startActivity(p);
 
 
@@ -40,14 +40,14 @@ public class Menue1 extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Menue1.this, DoDifficultWorkWhen.class);
+                Intent p = new Intent(Courses.this, DoDifficultWorkWhen.class);
                 startActivity(p);
             }
         });
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Menue1.this, SticktoSchedule.class);
+                Intent p = new Intent(Courses.this, SticktoSchedule.class);
                 startActivity(p);
 
 
@@ -56,14 +56,14 @@ public class Menue1 extends AppCompatActivity {
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Menue1.this, GoalSetting.class);
+                Intent p = new Intent(Courses.this, GoalSetting.class);
                 startActivity(p);
             }
         });
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Menue1.this, ConcentrationandFocus.class);
+                Intent p = new Intent(Courses.this, ConcentrationandFocus.class);
                 startActivity(p);
             }
         });

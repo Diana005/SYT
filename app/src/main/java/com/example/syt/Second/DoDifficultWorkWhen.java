@@ -6,11 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.syt.First.Exam;
-import com.example.syt.First.UnderstandtheDifferenceBetweenUrgentandImportant;
-import com.example.syt.Menue1;
+import com.example.syt.Courses;
 import com.example.syt.R;
-import com.example.syt.Third.SticktoSchedule;
 
 
 public class DoDifficultWorkWhen extends Activity {
@@ -25,7 +22,7 @@ public class DoDifficultWorkWhen extends Activity {
         buttonc2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(DoDifficultWorkWhen.this, Menue1.class);
+                Intent p = new Intent(DoDifficultWorkWhen.this, Courses.class);
                 startActivity(p);
             }
         });
