@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.syt.Courses;
+import com.example.syt.Activity.Courses;
 import com.example.syt.R;
 
 public class ConcentrationandFocus extends AppCompatActivity {

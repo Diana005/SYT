@@ -1,4 +1,4 @@
-package com.example.syt;
+package com.example.syt.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.syt.R;
 
 public class Resources extends AppCompatActivity {
 ImageView book1,book2,book3,book4,book5,book6;

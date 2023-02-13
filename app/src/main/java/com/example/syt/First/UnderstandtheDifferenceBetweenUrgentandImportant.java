@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import android.widget.Button;
 
-import com.example.syt.Courses;
+import com.example.syt.Activity.Courses;
 import com.example.syt.R;
 
 

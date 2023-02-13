@@ -1,4 +1,4 @@
-package com.example.syt;
+package com.example.syt.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.example.syt.Fifth.ConcentrationandFocus;
 import com.example.syt.First.UnderstandtheDifferenceBetweenUrgentandImportant;
 import com.example.syt.Fourth.GoalSetting;
+import com.example.syt.R;
 import com.example.syt.Second.DoDifficultWorkWhen;
 import com.example.syt.Third.SticktoSchedule;
 
