@@ -2,13 +2,10 @@ package com.example.syt.Activity;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
-import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,6 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.syt.Class.CourseClass;
 import com.example.syt.R;
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
@@ -30,7 +29,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         CourseClass courseClass = courseClasses.get(position);
-        holder.imageView.setImageURI(Uri.parse(courseClass.getImageUrl()));
+        Picasso.get().load(courseClass.getImageUrl()).into(holder.imageView);
         holder.courseName.setText(courseClass.getCourseName());
     }
 
@@ -44,7 +43,6 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
         TextView courseName;
         ImageView imageView;
         Button button;
-
         public ViewHolder(View view) {
             super(view);
             courseName = view.findViewById(R.id.textView);
@@ -53,7 +51,6 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //
                     Intent intent = new Intent(view.getContext(),Main.class);
                     intent.putExtra("courseName",courseName.getText().toString());
                     view.getContext().startActivity(intent);
