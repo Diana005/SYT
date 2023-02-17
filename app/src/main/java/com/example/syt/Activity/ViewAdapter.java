@@ -31,6 +31,8 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
         CourseClass courseClass = courseClasses.get(position);
         Picasso.get().load(courseClass.getImageUrl()).into(holder.imageView);
         holder.courseName.setText(courseClass.getCourseName());
+        holder.title = courseClass.getLessonsText();
+
     }
 
     @Override
@@ -40,6 +42,8 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
 
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
+        String name,title;
+
         TextView courseName;
         ImageView imageView;
         Button button;
@@ -51,8 +55,9 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(view.getContext(),Main.class);
+                    Intent intent = new Intent(view.getContext(),ReadCourseActivity.class);
                     intent.putExtra("courseName",courseName.getText().toString());
+                    intent.putExtra("courseText",title);
                     view.getContext().startActivity(intent);
                 }
             });
