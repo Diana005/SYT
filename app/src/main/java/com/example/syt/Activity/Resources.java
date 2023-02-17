@@ -15,7 +15,7 @@ ImageView book1,book2,book3,book4,book5,book6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menue2);
+        setContentView(R.layout.activity_resource);
         book1=findViewById(R.id.book1);
         book2=findViewById(R.id.book2);
         book3=findViewById(R.id.book3);

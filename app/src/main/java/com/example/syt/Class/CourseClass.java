@@ -1,14 +1,23 @@
 package com.example.syt.Class;
 
 public class CourseClass {
-    private String courseName,imageUrl;
+    private String courseName,lessonsText,imageUrl;
 
-    public CourseClass(String courseName, String imageUrl) {
+    public CourseClass(String courseName, String lessonsText, String imageUrl) {
         this.courseName = courseName;
+        this.lessonsText = lessonsText;
         this.imageUrl = imageUrl;
     }
 
     public CourseClass() {
+    }
+
+    public String getLessonsText() {
+        return lessonsText;
+    }
+
+    public void setLessonsText(String lessonsText) {
+        this.lessonsText = lessonsText;
     }
 
     public String getCourseName() {

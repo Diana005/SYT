@@ -31,4 +31,12 @@
         android:text="@string/i"
         android:textSize="35dp" />
 
+    <Button
+        android:id="@+id/newLessons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/introduction"
+        android:layout_marginHorizontal="30dp"
+        android:text="Button" />
+
 </RelativeLayout>
