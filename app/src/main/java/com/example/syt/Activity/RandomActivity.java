@@ -17,9 +17,9 @@ public class RandomActivity extends AppCompatActivity {
         setContentView(R.layout.activity_random);
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Lessons");
         DatabaseReference r1 = reference.child("Das1");
-        r1.setValue(new CourseClass("Das1","Lorem1","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Courses%2Fc10.jpg?alt=media&token=1372510f-6918-4a41-af1d-28ba09cc62ce"));
+        r1.setValue(new CourseClass("Das1","Lorem1","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/C_n%2Ffirstmenue.jpg?alt=media&token=2d66e73d-07c8-4e7c-b8bf-35585f010562"));
         DatabaseReference r2 = reference.child("Das2");
-        r2.setValue(new CourseClass("Das2","Lorem2","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Courses%2Fc20.jpg?alt=media&token=3f9bac0a-6a4a-4340-8e94-0e5616c2ef8d"));
+        r2.setValue(new CourseClass("Das2","Lorem2","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/C_n%2Fsecondmenue.jpg?alt=media&token=c66483f6-e5e0-4cc8-8cb2-234a681c89f7"));
 
     }
 
