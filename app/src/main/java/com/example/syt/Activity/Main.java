@@ -31,7 +31,7 @@ public class Main extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Main.this, CoursesActivity.class);
+                Intent p = new Intent(Main.this,Start.class);
                 startActivity(p);
             }
         });

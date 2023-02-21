@@ -20,6 +20,12 @@ public class RandomActivity extends AppCompatActivity {
         r1.setValue(new CourseClass("Das1","Lorem1","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/C_n%2Ffirstmenue.jpg?alt=media&token=2d66e73d-07c8-4e7c-b8bf-35585f010562"));
         DatabaseReference r2 = reference.child("Das2");
         r2.setValue(new CourseClass("Das2","Lorem2","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/C_n%2Fsecondmenue.jpg?alt=media&token=c66483f6-e5e0-4cc8-8cb2-234a681c89f7"));
+        DatabaseReference r3 = reference.child("Das3");
+        r3.setValue(new CourseClass("Das3","Lorem3","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/C_n%2Fsecondmenue.jpg?alt=media&token=c66483f6-e5e0-4cc8-8cb2-234a681c89f7"));
+        DatabaseReference r4 = reference.child("Das4");
+        r4.setValue(new CourseClass("Das4","Lorem4","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/C_n%2Fsecondmenue.jpg?alt=media&token=c66483f6-e5e0-4cc8-8cb2-234a681c89f7"));
+        DatabaseReference r5 = reference.child("Das5");
+        r5.setValue(new CourseClass("Das5","Lorem5","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/C_n%2Fsecondmenue.jpg?alt=media&token=c66483f6-e5e0-4cc8-8cb2-234a681c89f7"));
 
     }
 
