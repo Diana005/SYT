@@ -4,39 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.Main"
-    android:background="@drawable/firstpage">
+    tools:context=".Activity.Main">
 
     <Button
-        android:id="@+id/start"
+        android:id="@+id/s"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="130dp"
         android:layout_marginTop="300dp"
+        android:layout_marginLeft="110dp"
         android:backgroundTint="@color/white"
-        android:text="@string/s"
+        android:text="@string/c"
         android:textColor="#5A3B0C"
-        android:textSize="35dp"
-        />
-
+        android:textSize="35dp" />
     <Button
-        android:id="@+id/introduction"
-        android:layout_below="@id/start"
+        android:id="@+id/i"
+        android:layout_below="@id/s"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="90dp"
         android:backgroundTint="@color/white"
         android:textColor="#5A3B0C"
-        android:text="@string/i"
+        android:text="@string/r"
         android:textSize="35dp" />
-
-    <Button
-        android:id="@+id/newLessons"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/introduction"
-        android:layout_marginHorizontal="30dp"
-        android:text="Button" />
 
 </RelativeLayout>

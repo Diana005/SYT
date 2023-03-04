@@ -26,5 +26,60 @@
     <string name="books">Books</string>
     <string name="films">Films</string>
     <string name="learn">Learn</string>
+    <string name="a">Question</string>
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+
+
+
+
+    <string name="correct"><b>CORRECTNESS IS</b> \n
+                           <b>%1$d</b> OUT OF 6</string>
+
+
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+
+    <string name="b">Simran Knows Following Skills:\n \t
+                     <b>Ballet</b>\n \t
+                     <b>HipHop</b></string>
+    <string name="ca">Do You Think Simran Believes In:\n \t
+                     <b>Luck!!!</b></string>
+    <string name="d">Do You Think Simran Wants To Visit <b>Italy</b></string>
+    <string name="e">Simran Loves Loyalty.</string>
+    <string name="f">Simran Sleeps Less</string>
+    <string name="next_text">next</string>
+    <string name="prev_text">previous</string>
+    <string name="text">Question</string>
+    <string name="RadioButtonQuestionOneOptionOne">Hulk Buster</string>
+    <string name="RadioButtonQuestionOneOptionTwo">War Machine</string>
+    <string name="RadioButtonQuestionOneOptionThree">Mark 3</string>
+
+    <string name="RadioButtonQuestionTwoOptionOne">The Mandala Of Light</string>
+    <string name="RadioButtonQuestionTwoOptionTwo">The Eye Of Agamatto</string>
+    <string name="RadioButtonQuestionTwoOptionThree">Kun Lun</string>
+
+    <string name="RadioButtonQuestionThreeOptionOne">Vasily and Lynda Mihailovic</string>
+    <string name="RadioButtonQuestionThreeOptionTwo">Anatoly and Anna Ransakhov</string>
+    <string name="RadioButtonQuestionThreeOptionThree">Pietro and Wanda Maximoff</string>
+
+    <string name="RadioButtonQuestionFourOptionOne">The Mind Stone</string>
+    <string name="RadioButtonQuestionFourOptionTwo">The Space Stone</string>
+    <string name="RadioButtonQuestionFourOptionThree">The Time Stone</string>
+
+    <string name="Typehere">Type Your Answer Here in Small Letter</string>
+
+    <string name="RadioButtonQuestionSevenOptionOne">8</string>
+    <string name="RadioButtonQuestionSevenOptionTwo">4</string>
+    <string name="RadioButtonQuestionSevenOptionThree">6</string>
+
+    <string name="CheckBoxQuestionEightOptionOne">Black Widow</string>
+    <string name="CheckBoxQuestionEightOptionTwo">SpiderMan</string>
+    <string name="CheckBoxQuestionEightOptionThree">Falcon</string>
+    <string name="CheckBoxQuestionEightOptionFour">Vision</string>
+
+
+    <string name="AnswerFive">falcon</string>
+    <string name="AnswerSix">virginia</string>
 
 </resources>

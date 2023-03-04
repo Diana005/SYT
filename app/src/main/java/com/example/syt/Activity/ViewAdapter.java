@@ -47,11 +47,13 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
         TextView courseName;
         ImageView imageView;
         Button button;
+
         public ViewHolder(View view) {
             super(view);
             courseName = view.findViewById(R.id.textView);
             imageView = view.findViewById(R.id.imageView);
             button = view.findViewById(R.id.button);
+
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -61,6 +63,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
                     view.getContext().startActivity(intent);
                 }
             });
+
         }
 
     }
