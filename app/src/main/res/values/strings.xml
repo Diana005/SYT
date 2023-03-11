@@ -82,4 +82,7 @@
     <string name="AnswerFive">falcon</string>
     <string name="AnswerSix">virginia</string>
 
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="intro_text">      Do you ever feel like theres not enough time in the day?We all get the same 24 hours  so why do some people seem to achieve more with their time than others? The answer: good time management. Time management is the process of organizing and planning how to divide your time between different activities. Get it right, and youll end up working smarter, not harder, to get more done in less time  even when time is tight and pressures are high. The highest achievers manage their time exceptionally well. And by using Mind Tools time-management resources, you too can make the most of your time  starting right now!</string>
+    <string name="continue_string">CONTINUE</string>
 </resources>

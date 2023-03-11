@@ -32,10 +32,10 @@ public class ReadCourseActivity extends AppCompatActivity {
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+
                     Intent p = new Intent(ReadCourseActivity.this, Exam.class);
                     p.putExtra("courseName",intent.getStringExtra("courseName"));
                     startActivity(p);
-
                 }
             });
 

@@ -13,19 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SYT"
         tools:targetApi="31" >
-        <activity
-            android:name=".Exam"
-            android:exported="false" />
+
         <activity
             android:name=".Activity.Exam"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.ReadCourseActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Activity.CoursesActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

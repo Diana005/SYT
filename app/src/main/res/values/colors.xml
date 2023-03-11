@@ -11,4 +11,8 @@
     <color name="textColor">#C9453D3D</color>
     <color name="colorPrimaryDark">#32A612</color>
     <color name="colorAccent">#ff5824</color>
+    <color name="_bg__android_small___6_ek2_color">#FFFFFF</color>
+    <color name="intro_text">#353A34</color>
+    <color name="rectangle_39_color">#3B5735</color>
+
 </resources>

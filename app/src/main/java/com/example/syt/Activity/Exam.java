@@ -1,15 +1,19 @@
 package com.example.syt.Activity;
 
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.syt.R;
@@ -40,26 +44,33 @@ public class Exam extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam);
+        Bundle bundle = getIntent().getExtras();
+        String courseName = bundle.getString("courseName");
+        if (courseName != null) {
 
-        scroll = (ScrollView) findViewById(R.id.Scroll);
+            scroll = (ScrollView) findViewById(R.id.Scroll);
 
-        question1 = (RadioButton) findViewById(R.id.rb_CorrectAnswerOne);
-        question2 = (RadioButton) findViewById(R.id.rb_CorrectAnswerTwo);
-        question3 = (RadioButton) findViewById(R.id.rb_CorrectAnswerThree);
-        question4 = (RadioButton) findViewById(R.id.rb_CorrectAnswerFour);
-        question5 = (EditText) findViewById(R.id.userResponse_AnswerFive);
-        question6 = (EditText) findViewById(R.id.userResponse_AnswerSix);
-        question7 = (RadioButton) findViewById(R.id.rb_CorrectAnswerSeven);
-        question8_1 = (CheckBox) findViewById(R.id.cb_CorrectAnswerEight_1);
-        question8_2 = (CheckBox) findViewById(R.id.cb_CorrectAnswerEight_2);
-        question8_4 = (CheckBox) findViewById(R.id.cb_CorrectAnswerEight_3);
+            question1 = (RadioButton) findViewById(R.id.rb_CorrectAnswerOne);
+            question2 = (RadioButton) findViewById(R.id.rb_CorrectAnswerTwo);
+            question3 = (RadioButton) findViewById(R.id.rb_CorrectAnswerThree);
+            question4 = (RadioButton) findViewById(R.id.rb_CorrectAnswerFour);
+            question5 = (EditText) findViewById(R.id.userResponse_AnswerFive);
+            question6 = (EditText) findViewById(R.id.userResponse_AnswerSix);
+            question7 = (RadioButton) findViewById(R.id.rb_CorrectAnswerSeven);
+            question8_1 = (CheckBox) findViewById(R.id.cb_CorrectAnswerEight_1);
+            question8_2 = (CheckBox) findViewById(R.id.cb_CorrectAnswerEight_2);
+            question8_4 = (CheckBox) findViewById(R.id.cb_CorrectAnswerEight_3);
 
-        wrongAnswerEight = (CheckBox) findViewById(R.id.cb_WrongAnswerEight);
-        radioGroupOne = (RadioGroup) findViewById(R.id.radioGroupOne);
-        radioGroupTwo = (RadioGroup) findViewById(R.id.radioGroupTwo);
-        radioGroupThree = (RadioGroup) findViewById(R.id.radioGroupThree);
-        radioGroupFour = (RadioGroup) findViewById(R.id.radioGroupFour);
-        radioGroupFive = (RadioGroup) findViewById(R.id.radioGroupFive);
+            wrongAnswerEight = (CheckBox) findViewById(R.id.cb_WrongAnswerEight);
+            radioGroupOne = (RadioGroup) findViewById(R.id.radioGroupOne);
+            radioGroupTwo = (RadioGroup) findViewById(R.id.radioGroupTwo);
+            radioGroupThree = (RadioGroup) findViewById(R.id.radioGroupThree);
+            radioGroupFour = (RadioGroup) findViewById(R.id.radioGroupFour);
+            radioGroupFive = (RadioGroup) findViewById(R.id.radioGroupFive);
+
+        } else {
+            // show error, course not defined
+        }
 
     }
 
@@ -114,12 +125,50 @@ public class Exam extends AppCompatActivity
             wrongAnswers = wrongAnswers + "Question - 8\n";
         }
 
-
+        String dialogText = "";
         if (correctAnswers == 8) {
-            Toast.makeText(this, "Congrats, All Answers Correct  \n Thanks for attempting this Quiz ", Toast.LENGTH_LONG).show();
+            dialogText = "Congrats, All Answers Correct  \n Thanks for attempting this Quiz ";
         } else {
-            Toast.makeText(this, "Correct Answers: " + correctAnswers + " /8\n" + wrongAnswers, Toast.LENGTH_LONG).show();
+            dialogText = "Correct Answers: " + correctAnswers + " /8\n" + wrongAnswers;
         }
+
+
+        View view = getLayoutInflater().inflate(R.layout.diolog, null);
+
+
+        TextView textView = view.findViewById(R.id.dialog_text_view);
+
+
+        textView.setText(dialogText);
+
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+
+        builder.setView(view);
+
+
+        builder.setTitle("Exam Results");
+        builder.setNegativeButton("Close", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                dialog.dismiss();
+            }
+        });
+
+
+        AlertDialog dialog = builder.create();
+
+
+        WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams();
+        layoutParams.copyFrom(dialog.getWindow().getAttributes());
+        layoutParams.width = WindowManager.LayoutParams.WRAP_CONTENT;
+        layoutParams.height = WindowManager.LayoutParams.WRAP_CONTENT;
+        dialog.getWindow().setAttributes(layoutParams);
+
+        dialog.show();
+
 
         ResetQuiz(findViewById(R.id.all));
 
@@ -157,3 +206,6 @@ public class Exam extends AppCompatActivity
         scroll.fullScroll(ScrollView.FOCUS_UP);
     }
 }
+
+
+
