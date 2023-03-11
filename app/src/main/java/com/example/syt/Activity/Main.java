@@ -21,9 +21,9 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        s=findViewById(R.id.s);
+        s=findViewById(R.id.rectangle_32);
 
-        i=findViewById(R.id.i);
+        i=findViewById(R.id.rectangle_33);
         i.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

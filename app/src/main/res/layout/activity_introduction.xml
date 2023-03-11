@@ -12,7 +12,7 @@
         android:paddingLeft="60dp"
         android:paddingRight="60dp"
         android:paddingBottom="80dp"
-        android:paddingTop="80dp">
+        android:paddingTop="130dp">
 
         <TextView
             android:id="@+id/intro_text"
@@ -26,12 +26,10 @@
 
         <Button
             android:id="@+id/rectangle_39"
-            android:layout_width="204dp"
-            android:layout_height="45dp"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:background="@drawable/rectangle_39_shape" />
-
+            android:layout_width="204dp" android:text="@string/continue_string"
+            android:layout_height="45dp" android:layout_marginTop="20dp"
+            android:backgroundTint="@color/rectangle_39_color"
+            android:layout_gravity="center" />
     </LinearLayout>
 
 </ScrollView>
