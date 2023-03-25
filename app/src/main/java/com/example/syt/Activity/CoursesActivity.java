@@ -1,6 +1,8 @@
 package com.example.syt.Activity;
 
 import android.os.Bundle;
+import android.os.Handler;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -29,6 +31,8 @@ public class CoursesActivity extends AppCompatActivity {
     private ArrayList<CourseClass> listData;
     private DatabaseReference reference;
     private LoadingScreenFragment loadingScreenFragment;
+
+    private Handler mHandler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +74,12 @@ public class CoursesActivity extends AppCompatActivity {
                     }
                 }
                 viewAdapter.notifyDataSetChanged();
-                stopLoading();
+                mHandler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        stopLoading();
+                    }
+                }, 4000);
             }
 
             @Override
