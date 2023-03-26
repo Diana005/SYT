@@ -1,4 +1,4 @@
-package com.example.syt.Activity;
+package com.example.syt.Activity.Courses;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.syt.Activity.Exams.Exam;
 import com.example.syt.R;
 
 public class ReadCourseActivity extends AppCompatActivity {

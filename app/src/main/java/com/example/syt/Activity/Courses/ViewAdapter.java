@@ -1,4 +1,4 @@
-package com.example.syt.Activity;
+package com.example.syt.Activity.Courses;
 
 import android.content.Context;
 import android.content.Intent;
@@ -57,7 +57,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(view.getContext(),ReadCourseActivity.class);
+                    Intent intent = new Intent(view.getContext(), ReadCourseActivity.class);
                     intent.putExtra("courseName",courseName.getText().toString());
                     intent.putExtra("courseText",title);
                     view.getContext().startActivity(intent);

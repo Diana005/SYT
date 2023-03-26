@@ -1,4 +1,4 @@
-package com.example.syt.Activity;
+package com.example.syt.Activity.Courses;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.syt.Activity.LoadingScreenFragment;
-import com.example.syt.Activity.ViewAdapter;
 import com.example.syt.Class.CourseClass;
 import com.example.syt.R;
 import com.google.firebase.database.DataSnapshot;

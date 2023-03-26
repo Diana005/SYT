@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.syt.Activity.Courses.CoursesActivity;
 import com.example.syt.Class.CourseClass;
 import com.example.syt.R;
 import com.google.firebase.database.DatabaseReference;

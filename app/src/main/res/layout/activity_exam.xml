@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:textStyle="bold"
-                android:text="@string/text"
+                android:text="1. Question"
                 android:textColor="@color/rectangle_32_color"
                 android:textSize="16sp" />
 
@@ -142,65 +142,6 @@
         </LinearLayout>
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#00555555"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:textStyle="bold"
-                android:text="3. Quicksilver and Scarlet Witch appear in Avengers: Age of Ultron. But what are their “real” names?"
-                android:textColor="@color/rectangle_32_color"
-                android:textSize="16sp" />
-
-
-
-            <RadioGroup
-                android:id="@+id/radioGroupThree"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:text="@string/RadioButtonQuestionThreeOptionOne"
-                    android:textColor="@color/textColor"
-                    android:textSize="14sp" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:text="@string/RadioButtonQuestionThreeOptionTwo"
-                    android:textColor="@color/textColor"
-                    android:textSize="14sp" />
-
-                <RadioButton
-                    android:id="@+id/rb_CorrectAnswerThree"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:text="@string/RadioButtonQuestionThreeOptionThree"
-                    android:textColor="@color/textColor"
-                    android:textSize="14sp" />
-            </RadioGroup>
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -217,66 +158,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:textStyle="bold"
-                android:text="4. Which Infinity Stone does Vision have embedded into his forehead?"
-                android:textColor="@color/rectangle_32_color"
-                android:textSize="16sp" />
-
-
-            <RadioGroup
-                android:id="@+id/radioGroupFour"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:id="@+id/rb_CorrectAnswerFour"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:text="@string/RadioButtonQuestionFourOptionOne"
-                    android:textColor="@color/textColor"
-                    android:textSize="14sp" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:paddingLeft="10dp"
-                    android:textStyle="bold"
-                    android:text="@string/RadioButtonQuestionFourOptionTwo"
-                    android:textColor="@color/textColor"
-                    android:textSize="14sp" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:paddingLeft="10dp"
-                    android:textStyle="bold"
-                    android:text="@string/RadioButtonQuestionFourOptionThree"
-                    android:textColor="@color/textColor"
-                    android:textSize="14sp" />
-            </RadioGroup>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:background="#00555555"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:textStyle="bold"
-                android:text="5. Sam Wilson is better known as?"
+                android:text="3. Question"
                 android:textColor="@color/rectangle_32_color"
                 android:textSize="16sp" />
 
@@ -292,36 +174,7 @@
                 android:textSize="14sp" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:background="#00555555"
-            android:orientation="vertical"
-            android:padding="10dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:textStyle="bold"
-                android:text="6. What is “Pepper” Potts first name?( Hint: Begins with V )"
-                android:textColor="@color/rectangle_32_color"
-                android:textSize="16sp" />
-
-
-
-            <EditText
-                android:id="@+id/userResponse_AnswerSix"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:hint="@string/Typehere"
-                android:textColor="@color/textColor"
-                android:textSize="14sp" />
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -338,7 +191,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:textStyle="bold"
-                android:text="7. How many Infinity Stones are there?"
+                android:text="4.Question"
                 android:textColor="@color/rectangle_32_color"
                 android:textSize="16sp" />
 
@@ -398,7 +251,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:textStyle="bold"
-                android:text="8. Who all out of the following were in IRONMANs Team in Captain America: Civil War ?"
+                android:text="5. Question"
                 android:textColor="@color/rectangle_32_color"
                 android:textSize="16sp" />
 
