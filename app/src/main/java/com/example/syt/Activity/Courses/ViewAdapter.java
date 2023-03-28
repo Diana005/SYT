@@ -42,7 +42,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
 
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
-        String name,title;
+        String title;
 
         TextView courseName;
         ImageView imageView;

@@ -47,7 +47,7 @@ public class Resources extends AppCompatActivity {
         fragmentManager = getSupportFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
 
-        // Replace the existing content with the loading screen fragment
+
         loadingScreenFragment = new LoadingScreenFragment();
         fragmentTransaction.replace(android.R.id.content, loadingScreenFragment);
         fragmentTransaction.commit();
@@ -72,9 +72,9 @@ public class Resources extends AppCompatActivity {
                     ListData.clear();
                 }
                 for (DataSnapshot d : snapshot.getChildren()) {
-                    ResourcesClass messenger = d.getValue(ResourcesClass.class);
-                    if (messenger != null) {
-                        ListData.add(messenger);
+                    ResourcesClass me = d.getValue(ResourcesClass.class);
+                    if (me != null) {
+                        ListData.add(me);
                     }
                 }
                 viewAdapter.notifyDataSetChanged();
@@ -95,7 +95,7 @@ public class Resources extends AppCompatActivity {
     }
 
     private void stopLoading() {
-        // Remove the loading screen fragment
+
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.remove(loadingScreenFragment);
         fragmentTransaction.commit();

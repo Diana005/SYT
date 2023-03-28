@@ -41,7 +41,7 @@ public class CoursesActivity extends AppCompatActivity {
         fragmentManager = getSupportFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
 
-        // Replace the existing content with the loading screen fragment
+
         loadingScreenFragment = new LoadingScreenFragment();
         fragmentTransaction.replace(android.R.id.content, loadingScreenFragment);
         fragmentTransaction.commit();
@@ -67,9 +67,9 @@ public class CoursesActivity extends AppCompatActivity {
                     listData.clear();
                 }
                 for (DataSnapshot ds : snapshot.getChildren()) {
-                    CourseClass messenger = ds.getValue(CourseClass.class);
-                    if (messenger != null) {
-                        listData.add(messenger);
+                    CourseClass m = ds.getValue(CourseClass.class);
+                    if (m!= null) {
+                        listData.add(m);
                     }
                 }
                 viewAdapter.notifyDataSetChanged();
@@ -90,7 +90,7 @@ public class CoursesActivity extends AppCompatActivity {
     }
 
     private void stopLoading() {
-        // Remove the loading screen fragment
+
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.remove(loadingScreenFragment);
         fragmentTransaction.commit();
