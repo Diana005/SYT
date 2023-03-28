@@ -8,7 +8,9 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.syt.Activity.Courses.CoursesActivity;
+import com.example.syt.Activity.Resources.Resources;
 import com.example.syt.Class.CourseClass;
+import com.example.syt.Class.ResourcesClass;
 import com.example.syt.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -62,6 +64,52 @@ public class Main extends AppCompatActivity {
                 "\n" +
                 "\n","https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/courses02%2Fconcentration_removebg_preview_2.PNG?alt=media&token=afa3af0d-cef0-45b5-a49a-98bcc28844bb"));
 
+        DatabaseReference reference_rec = FirebaseDatabase.getInstance().getReference("Resources");
+        DatabaseReference res1 = reference_rec.child("Res1");
+        res1.setValue(new ResourcesClass("Books",
+                "https://www.amazon.co.uk/Time-Management-Book-Productivity-Effectivity-ebook/dp/B081Y5BYLX",
+                "https://www.theexceptionalskills.com/best-time-management-books/",
+                "https://www.linkedin.com/pulse/19-effective-time-management-books-you-should-read-2018-carey-bentley/",
+                "https://www.theexceptionalskills.com/best-time-management-books/",
+                "https://fivebooks.com/best-books/time-management-oliver-burkeman/",
+                "https://www.amazon.in/Time-Management-Sudhir-Dixit/dp/938824110X",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Books%2Fbook1.jpg?alt=media&token=d82fadc3-f3af-4572-9618-69f5896824ca",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Books%2Fbook2.jpg?alt=media&token=f6f578ed-973e-45ec-9901-eaaec9045ba6",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Books%2Fbook3.jpg?alt=media&token=a1847b2a-a9b6-407c-9596-bc9173286070",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Books%2Fbook4.jpg?alt=media&token=6e7bf469-7332-42d8-a2ca-d8356cf61c14",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Books%2Fbook5.jpg?alt=media&token=2ca1bf2f-e11a-47bc-aa80-0b96db78aa60",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Books%2Fbook6.jpg?alt=media&token=54c8435c-7f91-486c-b35e-d72622ef796d"));
+
+
+        DatabaseReference res2 = reference_rec.child("Res2");
+        res2.setValue(new ResourcesClass("Articles",
+                "https://hbr.org/2020/01/time-management-is-about-more-than-life-hacks",
+                "https://www.wsj.com/articles/how-to-create-a-work-schedule-that-helps-you-succeed-11609265688",
+                "https://mcgraw.princeton.edu/undergraduates/resources/resource-library/effective-time-management",
+                "https://blog.proofhub.com/work-smarter-not-harder-9-time-management-tips-that-will-change-your-life-f2292f3d0044",
+                "https://www.fastcompany.com/90357248/procrastination-is-an-emotional-problem",
+                "https://www.proofhub.com/articles/time-management",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Articles%2Farticles1.png?alt=media&token=1d1dec1e-6d9f-4835-ae08-82ade3c492c7",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Articles%2Farticles2.png?alt=media&token=ff9a63fb-c7f1-43f9-81c3-1c80d2b0940d",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Articles%2Farticles3.png?alt=media&token=8428bf27-cbe0-4439-b967-5d018017974b",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Articles%2Farticles4.png?alt=media&token=18b78771-ddce-4860-8a50-0724cbc3a572",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Articles%2Farticles6.png?alt=media&token=29d278fd-e23f-44d1-9e69-f885457c5302",
+                "https://firebasestorage.googleapis.com/v0/b/syt0-cfc56.appspot.com/o/Articles%2Farticles5.png?alt=media&token=671c613f-94ca-4839-8b70-b104a93f77c9"));
+
+       /* DatabaseReference res4 = reference_rec.child("Res2");
+        res2.setValue(new ResourcesClass("title2",
+                "ghhhj",
+                "hhh",
+                "yyy",
+                "aaa",
+                "eeee",
+                "tttt",
+                "wewe",
+                "ytyt",
+                "rtrt",
+                "ytut",
+                "iuyt",
+                "uyio"));*/
 
 
 
