@@ -13,64 +13,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SYT"
         tools:targetApi="31" >
+
         <activity
-            android:name=".Courses"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".First.UnderstandtheDifferenceBetweenUrgentandImportant"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".First.Exam"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Resources"
+            android:name=".Activity.Exams.Exam"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Fifth.Exam5"
+            android:name=".Activity.Courses.ReadCourseActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Fifth.ConcentrationandFocus"
+            android:name=".Activity.Courses.CoursesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activity.Resources.Resources"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Fourth.GoalSetting"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Third.SticktoSchedule"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Third.Exam3"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Fourth.Exam4"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Second.DoDifficultWorkWhen"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Second.Exam2"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Start"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Introduction"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Main"
+            android:name=".Activity.Introduction"
             android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -78,6 +43,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Main"
+            android:exported="false"
+            android:screenOrientation="portrait" >
         </activity>
 
         <meta-data

@@ -1,34 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main"
-    android:background="@drawable/firstpage">
+    android:background="@drawable/fbaa26f7_c348_4cc4_b7e5_4b5333ea8926_1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="80dp"
+        android:paddingTop="450dp"
+        >
 
-    <Button
-        android:id="@+id/start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="300dp"
-        android:backgroundTint="@color/white"
-        android:text="@string/s"
-        android:textColor="#5A3B0C"
-        android:textSize="35dp"
-        />
 
-    <Button
-        android:id="@+id/introduction"
-        android:layout_below="@id/start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:backgroundTint="@color/white"
-        android:textColor="#5A3B0C"
-        android:text="@string/i"
-        android:textSize="35dp" />
+        <Button
+            android:id="@+id/rectangle_32"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rectangle_32_color"
 
-</RelativeLayout>
+            android:gravity="center"
+            android:text="@string/courses_string"
+            android:textColor="@color/courses_color"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/rectangle_33"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/rectangle_32_color"
+            android:gravity="center"
+            android:text="@string/resources_string"
+            android:textColor="@color/courses_color"
+            android:textSize="30sp" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

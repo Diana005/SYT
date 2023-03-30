@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727046213129",
+    "firebase_url": "https://syt0-cfc56-default-rtdb.firebaseio.com",
+    "project_id": "syt0-cfc56",
+    "storage_bucket": "syt0-cfc56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727046213129:android:14a7a63ea2d60e0538f2d8",
+        "android_client_info": {
+          "package_name": "com.example.syt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727046213129-evj7h61g694vkh5mb7u7hisp3842vklq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJXZZGFzpxb4-O3Udo1tFr-17VQKW5crE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727046213129-evj7h61g694vkh5mb7u7hisp3842vklq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
