@@ -30,6 +30,7 @@ public class Introduction extends AppCompatActivity {
     private void moveToMain() {
         Intent intent = new Intent(this,Main.class);
         startActivity(intent);
+        finish();
     }
 
 
@@ -41,8 +42,7 @@ public class Introduction extends AppCompatActivity {
         buttonintro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p = new Intent(Introduction.this, Main.class);
-                startActivity(p);
+                moveToMain();
             }
         });
 

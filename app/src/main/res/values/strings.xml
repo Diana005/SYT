@@ -48,10 +48,10 @@
     <string name="f">Simran Sleeps Less</string>
     <string name="next_text">next</string>
     <string name="prev_text">previous</string>
-    <string name="text">Question</string>
-    <string name="RadioButtonQuestionOneOptionOne">Hulk Buster</string>
-    <string name="RadioButtonQuestionOneOptionTwo">War Machine</string>
-    <string name="RadioButtonQuestionOneOptionThree">Mark 3</string>
+    <string name="text">1.Always start working on the easiest tasks, even if they are less important.</string>
+    <string name="RadioButtonQuestionOneOptionOne">Yes, sometimes.</string>
+    <string name="RadioButtonQuestionOneOptionTwo">No way.</string>
+    <string name="RadioButtonQuestionOneOptionThree">I think we need at first do hardiest tasks, even if they are less important.</string>
 
     <string name="RadioButtonQuestionTwoOptionOne">The Mandala Of Light</string>
     <string name="RadioButtonQuestionTwoOptionTwo">The Eye Of Agamatto</string>
